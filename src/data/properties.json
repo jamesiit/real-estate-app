@@ -1,0 +1,193 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "type": "house",
+      "price": 450000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "address": "12 Oak Lane, London",
+      "postcode": "NW1 6XE",
+      "postcodeArea": "NW1",
+      "dateAdded": "2023-02-15",
+      "description": "A beautiful semi-detached house with spacious rooms and a modern kitchen. Perfect for families.",
+      "longDescription": "This stunning 3-bedroom semi-detached house offers generous living space, a large modern kitchen with integrated appliances, and a beautifully landscaped garden. The property has been recently renovated throughout, featuring a spacious living room, separate dining area, and a downstairs WC. Upstairs, there are three well-proportioned bedrooms and a family bathroom. The property benefits from off-street parking and is located within easy reach of excellent transport links, schools, and local amenities.",
+      "features": ["Garden", "Parking", "Central Heating", "Double Glazing"],
+      "images": [
+        "/images/property1/main.jpg",
+        "/images/property1/kitchen.jpg",
+        "/images/property1/living.jpg",
+        "/images/property1/bedroom1.jpg",
+        "/images/property1/bathroom.jpg",
+        "/images/property1/garden.jpg"
+      ],
+      "floorPlan": "/images/property1/floorplan.jpg",
+      "location": {
+        "lat": 51.5334,
+        "lng": -0.1417
+      }
+    },
+    {
+      "id": 2,
+      "type": "flat",
+      "price": 325000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "address": "45 Park View, Bromley",
+      "postcode": "BR1 3FE",
+      "postcodeArea": "BR1",
+      "dateAdded": "2023-03-20",
+      "description": "A stylish 2-bedroom apartment with balcony and beautiful park views.",
+      "longDescription": "This contemporary 2-bedroom apartment offers bright and airy accommodation with stunning views over the local park. The property features an open-plan kitchen/living area with doors opening onto a private balcony, perfect for enjoying the views. There are two double bedrooms, with an en-suite to the master, plus a separate family bathroom. The apartment benefits from secure underground parking and is located within walking distance of Bromley South station, providing excellent links into central London.",
+      "features": ["Balcony", "Parking", "Security System", "Lift Access"],
+      "images": [
+        "/images/property2/main.jpg",
+        "/images/property2/kitchen.jpg",
+        "/images/property2/living.jpg",
+        "/images/property2/bedroom1.jpg",
+        "/images/property2/bathroom.jpg",
+        "/images/property2/balcony.jpg"
+      ],
+      "floorPlan": "/images/property2/floorplan.jpg",
+      "location": {
+        "lat": 51.4051,
+        "lng": 0.0154
+      }
+    },
+    {
+      "id": 3,
+      "type": "house",
+      "price": 750000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "address": "8 Windsor Avenue, Richmond",
+      "postcode": "TW9 2PQ",
+      "postcodeArea": "TW9",
+      "dateAdded": "2023-01-10",
+      "description": "A spacious 5-bedroom detached house with large garden and garage.",
+      "longDescription": "This impressive 5-bedroom detached house offers substantial family accommodation arranged over three floors. The ground floor comprises a large reception hall, elegant living room, formal dining room, study, and a stunning kitchen/family room. On the first floor, there are four double bedrooms, including the master with en-suite, and a family bathroom. The second floor has a fifth bedroom with en-suite facilities. Outside, there's a beautifully maintained garden, a double garage, and ample off-street parking.",
+      "features": ["Detached", "Garden", "Garage", "Three Floors"],
+      "images": [
+        "/images/property3/main.jpg",
+        "/images/property3/kitchen.jpg",
+        "/images/property3/living.jpg",
+        "/images/property3/bedroom1.jpg",
+        "/images/property3/garden.jpg",
+        "/images/property3/exterior.jpg"
+      ],
+      "floorPlan": "/images/property3/floorplan.jpg",
+      "location": {
+        "lat": 51.4613,
+        "lng": -0.3037
+      }
+    },
+    {
+      "id": 4,
+      "type": "flat",
+      "price": 275000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "address": "23 Riverside Court, Greenwich",
+      "postcode": "SE10 8JT",
+      "postcodeArea": "SE10",
+      "dateAdded": "2023-04-05",
+      "description": "A modern 1-bedroom apartment with river views and excellent transport links.",
+      "longDescription": "This stylish one-bedroom apartment is situated in a sought-after riverside development with stunning views of the Thames. The property features an open-plan living/kitchen area with floor-to-ceiling windows, a double bedroom with built-in wardrobes, and a modern bathroom. Residents benefit from a 24-hour concierge service, communal gardens, and secure parking. The development is within walking distance of Greenwich DLR station, providing easy access to Canary Wharf and the City.",
+      "features": ["River Views", "Concierge", "Communal Gardens", "Secure Parking"],
+      "images": [
+        "/images/property4/main.jpg",
+        "/images/property4/kitchen.jpg",
+        "/images/property4/living.jpg",
+        "/images/property4/bedroom.jpg",
+        "/images/property4/bathroom.jpg",
+        "/images/property4/view.jpg"
+      ],
+      "floorPlan": "/images/property4/floorplan.jpg",
+      "location": {
+        "lat": 51.4834,
+        "lng": -0.0098
+      }
+    },
+    {
+      "id": 5,
+      "type": "house",
+      "price": 525000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "address": "17 Chestnut Drive, Croydon",
+      "postcode": "CR0 7PL",
+      "postcodeArea": "CR0",
+      "dateAdded": "2023-02-28",
+      "description": "A charming 4-bedroom family home with garden and conservatory.",
+      "longDescription": "This delightful 4-bedroom semi-detached house offers versatile family accommodation in a popular residential area. The ground floor comprises a welcoming entrance hall, living room, separate dining room, modern kitchen, and a bright conservatory overlooking the garden. Upstairs, there are four bedrooms and a family bathroom. The property benefits from off-street parking, a garage, and a well-maintained rear garden. Conveniently located for local schools, shops, and transport links to central London.",
+      "features": ["Conservatory", "Garden", "Garage", "Semi-Detached"],
+      "images": [
+        "/images/property5/main.jpg",
+        "/images/property5/kitchen.jpg",
+        "/images/property5/living.jpg",
+        "/images/property5/conservatory.jpg",
+        "/images/property5/bedroom1.jpg",
+        "/images/property5/garden.jpg"
+      ],
+      "floorPlan": "/images/property5/floorplan.jpg",
+      "location": {
+        "lat": 51.3762,
+        "lng": -0.0982
+      }
+    },
+    {
+      "id": 6,
+      "type": "flat",
+      "price": 425000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "address": "502 The Pinnacle, Shoreditch",
+      "postcode": "E1 6PQ",
+      "postcodeArea": "E1",
+      "dateAdded": "2023-03-15",
+      "description": "A luxury 2-bedroom penthouse apartment with roof terrace in the heart of Shoreditch.",
+      "longDescription": "This exceptional penthouse apartment offers luxurious city living with breathtaking views across London. The property features a spectacular open-plan living space with a high-specification kitchen and floor-to-ceiling windows leading to a private roof terrace. There are two double bedrooms, both with en-suite bathrooms and built-in storage. Additional benefits include underfloor heating, air conditioning, and 24-hour concierge. Located in the vibrant area of Shoreditch, with an array of restaurants, bars, and boutiques on the doorstep.",
+      "features": ["Penthouse", "Roof Terrace", "Air Conditioning", "24hr Concierge"],
+      "images": [
+        "/images/property6/main.jpg",
+        "/images/property6/kitchen.jpg",
+        "/images/property6/living.jpg",
+        "/images/property6/bedroom1.jpg",
+        "/images/property6/bathroom.jpg",
+        "/images/property6/terrace.jpg"
+      ],
+      "floorPlan": "/images/property6/floorplan.jpg",
+      "location": {
+        "lat": 51.5234,
+        "lng": -0.0727
+      }
+    },
+    {
+      "id": 7,
+      "type": "house",
+      "price": 1200000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "address": "24 Highfield Road, Hampstead",
+      "postcode": "NW3 6RT",
+      "postcodeArea": "NW3",
+      "dateAdded": "2023-01-25",
+      "description": "An elegant 6-bedroom Victorian house with period features and a landscaped garden.",
+      "longDescription": "This magnificent Victorian family home retains many original features, including high ceilings, ornate cornicing, and feature fireplaces. The accommodation comprises an impressive entrance hall, three elegant reception rooms, a stunning kitchen/breakfast room with bi-folding doors to the garden, utility room, and a guest cloakroom. The first floor offers four bedrooms and two bathrooms, while the second floor provides two further bedrooms and a shower room. Outside, there is a beautifully landscaped garden, off-street parking, and a converted basement providing additional living space.",
+      "features": ["Period Features", "Landscaped Garden", "Basement", "Multiple Reception Rooms"],
+      "images": [
+        "/images/property7/main.jpg",
+        "/images/property7/kitchen.jpg",
+        "/images/property7/living.jpg",
+        "/images/property7/dining.jpg",
+        "/images/property7/bedroom1.jpg",
+        "/images/property7/garden.jpg"
+      ],
+      "floorPlan": "/images/property7/floorplan.jpg",
+      "location": {
+        "lat": 51.5569,
+        "lng": -0.1783
+      }
+    }
+  ]
+} 

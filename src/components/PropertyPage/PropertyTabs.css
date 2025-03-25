@@ -1,0 +1,144 @@
+.property-tabs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Override react-tabs styles */
+.react-tabs__tab-list {
+  border-bottom: 1px solid #e1e5e8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: none;
+  position: relative;
+  list-style: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #7f8c8d;
+  transition: all 0.3s ease;
+}
+
+.react-tabs__tab:hover {
+  background-color: rgba(52, 152, 219, 0.05);
+  color: #3498db;
+}
+
+.react-tabs__tab--selected {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+  background-color: transparent;
+}
+
+.react-tabs__tab--selected:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.tab-content {
+  padding: 1.5rem;
+}
+
+.tab-content h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.tab-content p {
+  line-height: 1.6;
+  color: #34495e;
+}
+
+/* Features list */
+.property-features {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e1e5e8;
+}
+
+.property-features h4 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.property-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.property-features li {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.property-features li::before {
+  content: '✓';
+  color: #27ae60;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+/* Floor plan */
+.floor-plan-container {
+  text-align: center;
+}
+
+.floor-plan-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Map */
+.map-container {
+  position: relative;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.map-address {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  border-left: 3px solid #3498db;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .react-tabs__tab {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .property-features ul {
+    grid-template-columns: 1fr;
+  }
+} 

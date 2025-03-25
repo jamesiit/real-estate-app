@@ -1,0 +1,216 @@
+.search-form {
+  background-color: var(--card-bg-color, #fff);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.search-form h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: var(--secondary-color, #2c3e50);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.search-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.25rem;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-color, #34495e);
+}
+
+.date-picker {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 0.25rem;
+  font-size: 0.95rem;
+  background-color: var(--input-bg-color, #fff);
+  color: var(--text-color, #333);
+  transition: border-color 0.2s ease;
+}
+
+.date-picker:focus {
+  outline: none;
+  border-color: var(--primary-color, #3498db);
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.search-form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* React Select custom styling */
+.react-select-container {
+  font-size: 0.95rem;
+}
+
+.react-select__control {
+  border-color: var(--border-color, #ccc) !important;
+  box-shadow: none !important;
+  min-height: 38px !important;
+  background-color: var(--input-bg-color, #fff) !important;
+}
+
+.react-select__control:hover {
+  border-color: var(--border-hover-color, #a0aec0) !important;
+}
+
+.react-select__control--is-focused {
+  border-color: var(--primary-color, #3498db) !important;
+  box-shadow: 0 0 0 1px var(--primary-color, #3498db) !important;
+}
+
+.react-select__menu {
+  box-shadow: var(--shadow) !important;
+  border-radius: 0.25rem !important;
+  background-color: var(--card-bg-color, #fff) !important;
+}
+
+.react-select__option {
+  color: var(--text-color, #333) !important;
+}
+
+.react-select__option--is-selected {
+  background-color: var(--primary-color, #3498db) !important;
+  color: white !important;
+}
+
+.react-select__option--is-focused:not(.react-select__option--is-selected) {
+  background-color: var(--primary-light-color, rgba(52, 152, 219, 0.1)) !important;
+}
+
+.react-select__single-value {
+  color: var(--text-color, #333) !important;
+}
+
+.react-select__placeholder {
+  color: var(--text-light-color, #95a5a6) !important;
+}
+
+/* React DatePicker custom styling */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker {
+  border-color: var(--border-color, #ccc) !important;
+  background-color: var(--card-bg-color, #fff) !important;
+  font-family: inherit !important;
+}
+
+.react-datepicker__header {
+  background-color: var(--primary-light-color, rgba(52, 152, 219, 0.1)) !important;
+  border-bottom-color: var(--border-color, #ccc) !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  color: var(--text-color, #333) !important;
+}
+
+.react-datepicker__day {
+  color: var(--text-color, #333) !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: var(--primary-color, #3498db) !important;
+  color: white !important;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .search-form-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .search-form {
+    padding: 1.25rem;
+  }
+  
+  .search-form h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-form-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .search-form-actions {
+    flex-direction: column;
+  }
+  
+  .search-form-actions button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-form {
+    padding: 1rem;
+  }
+  
+  .search-form h2 {
+    font-size: 1.25rem;
+  }
+  
+  .search-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .search-form {
+    background-color: #2a2a2a;
+  }
+  
+  .search-form h2 {
+    color: #ecf0f1;
+  }
+  
+  .form-group label {
+    color: #bdc3c7;
+  }
+  
+  .date-picker {
+    background-color: #333;
+    color: #ecf0f1;
+    border-color: #555;
+  }
+  
+  .react-datepicker__day {
+    background-color: #333;
+  }
+  
+  .react-datepicker__header {
+    background-color: #444;
+  }
+} 
